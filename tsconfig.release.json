@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": false,
+    "removeComments": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*",
+    "bots.json",
+    ".env"
+  ]
+}
